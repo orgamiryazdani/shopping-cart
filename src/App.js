@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./app.css";
+import ProductList from "./components/ProductList/ProductList";
+import Filter from "./components/Filter/Filter";
+import NavBar from "./components/NavBar/NavBar";
+import wrapper from "./components/hoc/Wrapper";
+import ProductsProvider from "./components/Providers/ProductsProviders";
 
-function App() {
+export const UserContext = React.createContext();
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ProductsProvider>
+        <NavBar />
+        <Filter />
+        <ProductList />
+      </ProductsProvider>
+    </>
   );
-}
+};
 
-export default App;
+export default wrapper(App, "container");

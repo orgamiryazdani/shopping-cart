@@ -1,0 +1,11 @@
+.productList{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: #fff;
+    width: 100vw;
+}
+.productList h1 ,h2{
+    margin-top: 10px;
+}

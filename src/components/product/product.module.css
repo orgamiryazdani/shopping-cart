@@ -1,0 +1,159 @@
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100%;
+  max-width: 1224px;
+}
+.product {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 15px 25px 0 25px;
+  background: #041955;
+  border: none;
+  color: #fff;
+}
+
+.button,
+.inc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 2px solid #eb06ff;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 17px;
+  color: #eb06ff;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.inc {
+  color: #237bff;
+  border: 2px solid #237bff;
+}
+.deleteBtn {
+  width: 100%;
+  height: 100%;
+}
+.delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #97b4ff;
+  width: 27px;
+  height: 27px;
+  background: transparent;
+  cursor: pointer;
+  border: none;
+}
+.value {
+  display: inline-block;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about {
+  display: flex;
+  width: 50%;
+  font-size: 17px;
+  height: auto;
+  align-items: center;
+  justify-content: space-around;
+}
+.Widget {
+  display: flex;
+  width: 50%;
+  height: auto;
+  min-height: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+.name,
+.price {
+  text-align: start;
+  margin-left: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 910px) {
+  .about {
+    font-size: 14px;
+  }
+  .button,
+  .inc {
+    width: 25px;
+    height: 25px;
+  }
+  .delete {
+    font-size: 22px;
+  }
+  .value {
+    font-size: 17px;
+  }
+  .delete {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    font-size: 11px;
+  }
+  .button,
+  .inc {
+    width: 20px;
+    height: 20px;
+  }
+  .delete {
+    font-size: 20px;
+  }
+  .value {
+    font-size: 15px;
+  }
+  .delete {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about {
+    font-size: 9px;
+  }
+  .button,
+  .inc {
+    width: 17px;
+    height: 17px;
+  }
+  .delete {
+    font-size: 17px;
+  }
+  .value {
+    font-size: 14px;
+  }
+  .delete {
+    width: 19px;
+    height: 19px;
+  }
+}

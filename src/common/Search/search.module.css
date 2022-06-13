@@ -1,0 +1,22 @@
+ .formControl{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}  
+.formControl input {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  width: 190px;
+  margin: 10px;
+  height: 18px;
+}
+
+

@@ -1,0 +1,52 @@
+.navBar {
+  width: 100vw;
+  background-color: #3450a1;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1380px;
+}
+.navBar p {
+  font-size: 30px;
+  color: #fff;
+}
+.navBar span {
+  position: relative;
+  margin-left: 20px;
+  margin-top: 15px;
+  display: inline-block;
+  width: 50px;
+  font-size: 28px;
+  height: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar h1 {
+  position: absolute;
+  top: -10px;
+  left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background: red;
+  font-size: 12px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 86%;
+}
